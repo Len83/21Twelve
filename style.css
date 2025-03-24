@@ -21,11 +21,7 @@
   --black: #1d1d1d;
   --dark-1: #2d2d2d;
   --dark-2: #4d4d4d;
-<<<<<<< HEAD
-  --dark-3: #6d6d6d; 
-=======
   --dark-3: #6d6d6d;
->>>>>>> ddc2627 (Roll back - 21Twelve)
   --gray-1: #8d8d8d;
   --gray-2: #adadad;
   --gray-3: #cdcdcd;
@@ -1095,13 +1091,8 @@ p {
   services css 
 ===========================*/
 .services-eight {
-<<<<<<< HEAD
-  padding-top: 40px;
-  padding-bottom: 40px;
-=======
   padding-top: 60px;
   padding-bottom: 120px;
->>>>>>> ddc2627 (Roll back - 21Twelve)
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .services-eight {
@@ -1186,23 +1177,6 @@ p {
 
 /* CONTACT SECTION START*/
 
-<<<<<<< HEAD
-.contact-nine {
-  background-color: var(--light-3);
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.container-contact {
- display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.fw-bold-contact {
-  padding: 10px;
-=======
 .container-services {
   width: 100%;
   padding-right: var(--bs-gutter-x, 0.75rem);
@@ -1235,31 +1209,23 @@ p {
 .contact-area .container > div {
   grid-column: 1/2;
   grid-row: 1/2;
->>>>>>> ddc2627 (Roll back - 21Twelve)
 }
 
 
 .contact-heading h2 {
   font-size: 2.25em;
   line-height: 1.25;
-<<<<<<< HEAD
-  color: var(--text-color);
-=======
   /* font-weight: 600; */
   color: var(--text-color);
   /* font-size: 3.5rem; */
   /* line-height: 0.9; */
->>>>>>> ddc2627 (Roll back - 21Twelve)
   white-space: nowrap;
   margin-bottom: 1.2rem;
 }
 
-<<<<<<< HEAD
-=======
 .contact-heading h2 span {
   color: var(--main-color);
 }
->>>>>>> ddc2627 (Roll back - 21Twelve)
 
 .text {
   color: var(--light-text-color);
@@ -1293,8 +1259,6 @@ p {
   color: #ED5F1E;
 }
 
-<<<<<<< HEAD
-=======
 .contact-buttons {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1322,7 +1286,6 @@ p {
   background-color: var(--light-main-color);
 }
 
->>>>>>> ddc2627 (Roll back - 21Twelve)
 
 @media (max-width: 900px) {
   .contact-heading h1 {
@@ -1332,10 +1295,6 @@ p {
   }
 }
 
-<<<<<<< HEAD
-/* Extra small devices (phones, less than 576px) */
-@media (max-width: 575.98px){
-=======
 
 /* Extra small devices (phones, less than 576px) */
 @media (max-width: 575.98px){
@@ -1356,14 +1315,11 @@ p {
     row-gap: 0.5rem;
 }
 
->>>>>>> ddc2627 (Roll back - 21Twelve)
 .contact-heading h1 {
     font-size: 1.9rem;
     line-height: 1;
 }
 }
-<<<<<<< HEAD
-=======
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -1408,19 +1364,10 @@ p {
       padding: 1rem 2rem;
   }
 }
->>>>>>> ddc2627 (Roll back - 21Twelve)
 /* CONTACT SECTION END */
 
 
 /* FOOTER SECTION START */
-<<<<<<< HEAD
-
-.footer {
-  position: relative;
-  padding: 10px 0 10px 0;
-  background: #3d4b58;
-  color: white;
-=======
 .footer {
   position: relative;
   padding: 20px 0;
@@ -1428,7 +1375,6 @@ p {
   color: white;
   display: flex;
   justify-content: center;
->>>>>>> ddc2627 (Roll back - 21Twelve)
 }
 
 .footer .container {
@@ -1437,11 +1383,8 @@ p {
   align-items: center;
   justify-content: center;
   text-align: center;
-<<<<<<< HEAD
-=======
   width: 100%;
   max-width: 1200px;  /* Optional: Adjust the max-width based on your layout */
->>>>>>> ddc2627 (Roll back - 21Twelve)
 }
 
 .footer .footer-content {
@@ -1452,51 +1395,6 @@ p {
 
 .footer .footer-logo img {
   width: 150px; /* Adjust the size as needed */
-<<<<<<< HEAD
-  margin-bottom: 5px;
-}
-
-
-.footer .footer-social {
-  display: center;
-  justify-content: center;
-  /* margin-top: 10px; */
-}
-
-.footer .footer-social .social-icon {
-  height: 30px;
-  width: 30px;
-  line-height: 30px;
-  text-align: center;
-  border: 1px solid #eee;
-  border-radius: 50%;
-  font-size: 16px;
-  color: white;
-  /* margin: 10px 30px ; */
-  margin-top: 10px;
-  margin-left: 30px;
-  transition: 0.2s ease-out;
-}
-
-.footer .footer-social .social-icon:hover {
-  color: var(--white);
-  background-color: var(--primary);
-  border-color: transparent;
-}
-
-.footer .text-footer {
-  color:White;
-  font-size: 14px;
-  margin: 0px;
-}
-
-.footer-copyright {
-  background-color: #2e3942;
-  
-  
-  padding: 15px 0;
-  
-=======
   margin-bottom: 10px; /* Increased space for better visual balance */
 }
 
@@ -1532,7 +1430,6 @@ p {
 .footer-copyright {
   background-color: #2e3942;
   padding: 15px 0;
->>>>>>> ddc2627 (Roll back - 21Twelve)
   text-align: center;
   font-family: inherit;
 }
@@ -1541,46 +1438,6 @@ p {
   color: white;
   font-size: 14px;
 }
-<<<<<<< HEAD
-
-/* END FOOTER */
-
-@media(max-width:1000px) {
-
-  footer {
-      padding: 400px;
-  }
-
-  .container {
-      flex-direction: column;
-  }
-
-  .container .sec {
-      margin-right: 0;
-      margin-bottom: 40px;
-  }
-
-  .container .sec .about, .quicklinks, .contact {
-      width: 30%;   
-  }
-
-  footer p{
-      display:inline-block;
-      width: 250px;
-      font-size: inherit;
-  }
-
-  .icon {
-      margin-left: -40px;
-  }
-
-  .copyright {
-      padding:8px 10px;
-  }
-  
-}
-/* FOOTER END  */
-=======
 /* END FOOTER */
 
 
@@ -1608,4 +1465,3 @@ p {
 }
 /* END COPYRIGHT SECTION */
 
->>>>>>> ddc2627 (Roll back - 21Twelve)
