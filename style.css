@@ -21,7 +21,11 @@
   --black: #1d1d1d;
   --dark-1: #2d2d2d;
   --dark-2: #4d4d4d;
+<<<<<<< HEAD
   --dark-3: #6d6d6d; 
+=======
+  --dark-3: #6d6d6d;
+>>>>>>> ddc2627 (Roll back - 21Twelve)
   --gray-1: #8d8d8d;
   --gray-2: #adadad;
   --gray-3: #cdcdcd;
@@ -1091,8 +1095,13 @@ p {
   services css 
 ===========================*/
 .services-eight {
+<<<<<<< HEAD
   padding-top: 40px;
   padding-bottom: 40px;
+=======
+  padding-top: 60px;
+  padding-bottom: 120px;
+>>>>>>> ddc2627 (Roll back - 21Twelve)
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .services-eight {
@@ -1177,6 +1186,7 @@ p {
 
 /* CONTACT SECTION START*/
 
+<<<<<<< HEAD
 .contact-nine {
   background-color: var(--light-3);
   padding-top: 30px;
@@ -1192,17 +1202,64 @@ p {
 
 .fw-bold-contact {
   padding: 10px;
+=======
+.container-services {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.contact-nine {
+  background-color: var(--light-3);
+  padding-top: 0px;
+  padding-bottom: 60px;
+}
+
+.contact-area {
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+}
+
+.contact-area .container {
+  /* height: 100vh; */
+  min-height: 100px;
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.contact-area .container > div {
+  grid-column: 1/2;
+  grid-row: 1/2;
+>>>>>>> ddc2627 (Roll back - 21Twelve)
 }
 
 
 .contact-heading h2 {
   font-size: 2.25em;
   line-height: 1.25;
+<<<<<<< HEAD
   color: var(--text-color);
+=======
+  /* font-weight: 600; */
+  color: var(--text-color);
+  /* font-size: 3.5rem; */
+  /* line-height: 0.9; */
+>>>>>>> ddc2627 (Roll back - 21Twelve)
   white-space: nowrap;
   margin-bottom: 1.2rem;
 }
 
+<<<<<<< HEAD
+=======
+.contact-heading h2 span {
+  color: var(--main-color);
+}
+>>>>>>> ddc2627 (Roll back - 21Twelve)
 
 .text {
   color: var(--light-text-color);
@@ -1236,6 +1293,36 @@ p {
   color: #ED5F1E;
 }
 
+<<<<<<< HEAD
+=======
+.contact-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+  grid-column: span 2;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1.1rem 2rem;
+  background-color: #ED5F1E;
+  color:#fff;
+  border-radius: 40px;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover{
+  background-color: var(--light-main-color);
+}
+
+>>>>>>> ddc2627 (Roll back - 21Twelve)
 
 @media (max-width: 900px) {
   .contact-heading h1 {
@@ -1245,23 +1332,103 @@ p {
   }
 }
 
+<<<<<<< HEAD
 /* Extra small devices (phones, less than 576px) */
 @media (max-width: 575.98px){
+=======
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px){
+  .left {
+      padding: 50px 1.5rem 0;
+  }
+
+  .right {
+      display: none;
+  }
+
+  .input-wrap {
+    grid-column: span 2;
+}
+
+.contact-buttons {
+    grid-template-columns: 1fr;
+    row-gap: 0.5rem;
+}
+
+>>>>>>> ddc2627 (Roll back - 21Twelve)
 .contact-heading h1 {
     font-size: 1.9rem;
     line-height: 1;
 }
 }
+<<<<<<< HEAD
+=======
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .contact-form {
+      grid-template-columns: 1fr;
+  }
+
+  .btn {
+      padding: 1rem 1.25rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .contact-form {
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .btn {
+      padding: 1rem 1.5rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .contact-form {
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .btn {
+      padding: 1rem 1.75rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .contact-form {
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .btn {
+      padding: 1rem 2rem;
+  }
+}
+>>>>>>> ddc2627 (Roll back - 21Twelve)
 /* CONTACT SECTION END */
 
 
 /* FOOTER SECTION START */
+<<<<<<< HEAD
 
 .footer {
   position: relative;
   padding: 10px 0 10px 0;
   background: #3d4b58;
   color: white;
+=======
+.footer {
+  position: relative;
+  padding: 20px 0;
+  background: #3d4b58;
+  color: white;
+  display: flex;
+  justify-content: center;
+>>>>>>> ddc2627 (Roll back - 21Twelve)
 }
 
 .footer .container {
@@ -1270,6 +1437,11 @@ p {
   align-items: center;
   justify-content: center;
   text-align: center;
+<<<<<<< HEAD
+=======
+  width: 100%;
+  max-width: 1200px;  /* Optional: Adjust the max-width based on your layout */
+>>>>>>> ddc2627 (Roll back - 21Twelve)
 }
 
 .footer .footer-content {
@@ -1280,6 +1452,7 @@ p {
 
 .footer .footer-logo img {
   width: 150px; /* Adjust the size as needed */
+<<<<<<< HEAD
   margin-bottom: 5px;
 }
 
@@ -1323,6 +1496,43 @@ p {
   
   padding: 15px 0;
   
+=======
+  margin-bottom: 10px; /* Increased space for better visual balance */
+}
+
+.footer .footer-logo h2 {
+  margin: 0; /* Remove default margin */
+}
+
+.footer .text-footer {
+  color: white;
+  font-size: 16px; /* Slightly larger text for readability */
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Responsive Design: Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .footer .footer-logo img {
+    width: 120px; /* Slightly smaller logo on mobile */
+  }
+
+  .footer .text-footer {
+    font-size: 14px; /* Slightly smaller text for mobile */
+    padding: 0 10px; /* Padding for text readability */
+  }
+}
+
+/* SEO and Accessibility Improvements */
+.footer .footer-logo img {
+  alt: "21Twelve Africa Logo" /* Descriptive alt text for SEO */;
+}
+
+/* Optional: Footer Copyright */
+.footer-copyright {
+  background-color: #2e3942;
+  padding: 15px 0;
+>>>>>>> ddc2627 (Roll back - 21Twelve)
   text-align: center;
   font-family: inherit;
 }
@@ -1331,6 +1541,7 @@ p {
   color: white;
   font-size: 14px;
 }
+<<<<<<< HEAD
 
 /* END FOOTER */
 
@@ -1369,3 +1580,32 @@ p {
   
 }
 /* FOOTER END  */
+=======
+/* END FOOTER */
+
+
+/* FOOTER COPYRIGHT SECTION */
+.footer-copyright {
+  background-color: #2e3942; /* Matching with the footer background for consistency */
+  padding: 15px 0;
+  text-align: center;
+  font-family: inherit; /* Inherit the font family used throughout the site */
+}
+
+.footer-copyright p {
+  color: white;
+  font-size: 14px; /* Slightly smaller size than the main footer text */
+  margin: 0;
+  line-height: 1.4; /* Adding line-height for better readability */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .footer-copyright p {
+    font-size: 12px; /* Slightly smaller text on mobile for better fitting */
+    padding: 0 10px; /* Padding to ensure the text doesn’t touch the edges */
+  }
+}
+/* END COPYRIGHT SECTION */
+
+>>>>>>> ddc2627 (Roll back - 21Twelve)
