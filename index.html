@@ -55,10 +55,7 @@
                 </li>
                 <li class="nav-item">
                   <a class="page-scroll" href="#services">Our Services</a>
-                </li>
-
-                <!-- <li class="nav-item"> -->
-              
+                </li>             
                 <li class="nav-item">
                   <a class="page-scroll" href="#contact">Contact Us</a>
                 </li>
@@ -87,7 +84,7 @@
     </div>
     <div class="sidebar-content">
       <div class="sidebar-logo">
-        <a href="index.html"><img src="assets/images/_21Twelve_Africa_Logo_V3 (transparent).svg" alt="Logo" /></a>
+        <a href="index.html"><img src="assets/images/_21Twelve_Africa_Logo_V3(transparent).svg" alt="21Twelve Africa Logo" /></a>
       </div>
       <p class="text">Crafted for your,<br>Tailored for Your Business.</p>
       <!-- logo -->
@@ -139,7 +136,6 @@
             </p>
             <div class="button">
               <a href="#contact" class="btn primary-btn">Contact Us</a>
-              </a>
             </div>
           </div>
         </div>
@@ -267,8 +263,8 @@
            <div class="col-12">
               <div class="contact-heading">
                 <h2 class="fw-bold">Let's Work Together<span> !</span></h2>
-                <p class="text">Email Us: <a href="mailto:">info@21twelve.africa</a></p>
-                  <p class="text-whatsapp">Whatsapp: <span>(+27) 846 836 919</span></p>
+                <p class="text">Email Us: <a href="mailto:info@21twelve.africa">info@21twelve.africa</a></p>
+                  <p class="text-whatsapp">WhatsApp: <a href="https://wa.me/27846836919">(+27) 846 836 919</a></p>
               </div>
           </div>
         </div>
@@ -313,12 +309,12 @@
   <script>
 
     //===== close navbar-collapse when a  clicked
-    let navbarTogglerNine = document.querySelector(
-      ".navbar-nine .navbar-toggler"
-    );
-    navbarTogglerNine.addEventListener("click", function () {
-      navbarTogglerNine.classList.toggle("active");
-    });
+ let navbarTogglerNine = document.querySelector(".navbar-nine .navbar-toggler");
+if (navbarTogglerNine) {
+   navbarTogglerNine.addEventListener("click", function () { 
+      navbarTogglerNine.classList.toggle("active"); 
+   });
+}
 
     // ==== left sidebar toggle
     let sidebarLeft = document.querySelector(".sidebar-left");
